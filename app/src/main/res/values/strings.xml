@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AppBerita</string>
+    <string name="menu_home">Beranda</string>
+    <string name="menu_popular">Terpopuler</string>
+    <string name="menu_bookmark">Bookmark</string>
+    <string name="menu_profile">Profil</string>
+    <string name="search_hint">Cari berita, kategori, atau topik...</string>
+    <string name="category_all">Semua</string>
+    <string name="category_tech">Teknologi</string>
+    <string name="category_economy">Ekonomi</string>
+    <string name="category_sport">Olahraga</string>
+    <string name="category_business">Bisnis</string>
+    <string name="category_entertainment">Hiburan</string>
+    <string name="category_politics">Politik</string>
+    <string name="toolbar_title_home">Berita Terkini</string>
+    <string name="trending_label">TRENDING</string>
+    <string name="share">Bagikan</string>
+    <string name="read_also">Baca Juga</string>
+    <string name="prev_news">Berita Sebelumnya</string>
+    <string name="next_news">Berita Selanjutnya</string>
+    <string name="views_format">%1$s views</string>
+    <string name="news_info_format">%1$s  •  %2$s views</string>
+    <string name="menu">Menu</string>
+</resources>

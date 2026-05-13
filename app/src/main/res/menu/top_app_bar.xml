@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/notification"
+        android:icon="@android:drawable/ic_popup_reminder"
+        android:title="Notifikasi"
+        app:showAsAction="ifRoom" />
+</menu>

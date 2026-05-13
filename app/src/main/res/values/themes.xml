@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.AppBerita" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="android:statusBarColor">@color/bg_white</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    <style name="Theme.AppBerita" parent="Base.Theme.AppBerita" />
+</resources>

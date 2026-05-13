@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivTrendingBg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#4D000000" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/tvTrendingLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_category_tech"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="2dp"
+            android:text="@string/trending_label"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:alpha="0.9"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvTrendingTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTrendingLabel"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="80dp"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="2dp" />
+
+        <TextView
+            android:id="@+id/tvTrendingDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTrendingTitle"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="100dp"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="#F0F0F0"
+            android:textSize="13sp" />
+
+    </RelativeLayout>
+</FrameLayout>
