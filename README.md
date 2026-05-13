@@ -21,7 +21,6 @@ AppBerita adalah aplikasi berita Android sederhana yang menampilkan daftar berit
 
 ## ⚙️ Cara Menjalankan Project
 1. Clone repository ini:
-   ```bash
    git clone [https://github.com/bolang1152/nama-repository.git](https://github.com/bolang1152/nama-repository.git)
 
 ```
@@ -34,7 +33,6 @@ AppBerita adalah aplikasi berita Android sederhana yang menampilkan daftar berit
 
 Berikut adalah cuplikan implementasi `TrendingAdapter` menggunakan Coil:
 
-```kotlin
 inner class TrendingViewHolder(private val binding: ItemTrendingBinding) : RecyclerView.ViewHolder(binding.root) {
     fun bind(news: News) {
         binding.tvNewsTitle.text = news.title
