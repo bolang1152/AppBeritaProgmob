@@ -20,11 +20,9 @@ AppBerita adalah aplikasi berita Android sederhana yang menampilkan daftar berit
 - `ItemTrendingBinding`: Layout binding yang digunakan untuk menampilkan data per baris.
 
 ## ⚙️ Cara Menjalankan Project
+```
 1. Clone repository ini:
    git clone [https://github.com/bolang1152/nama-repository.git](https://github.com/bolang1152/nama-repository.git)
-
-```
-
 2. Buka project di **Android Studio (Ladybug atau versi terbaru)**.
 3. Tunggu proses **Gradle Sync** selesai.
 4. Jalankan aplikasi di Emulator atau Device fisik.
